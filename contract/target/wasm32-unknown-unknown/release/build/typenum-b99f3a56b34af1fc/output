@@ -1,0 +1,2 @@
+cargo:rustc-env=TYPENUM_BUILD_CONSTS=/Users/jelilat/codes/nearnft/contract/target/wasm32-unknown-unknown/release/build/typenum-b99f3a56b34af1fc/out/consts.rs
+cargo:rustc-env=TYPENUM_BUILD_OP=/Users/jelilat/codes/nearnft/contract/target/wasm32-unknown-unknown/release/build/typenum-b99f3a56b34af1fc/out/op.rs

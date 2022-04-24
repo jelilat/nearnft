@@ -66374,7 +66374,20 @@ function App() {
     className: "me-auto"
   }), /*#__PURE__*/_react.default.createElement(_reactBootstrap.Nav, null, /*#__PURE__*/_react.default.createElement(_reactBootstrap.Nav.Link, {
     onClick: window.walletConnection.isSignedIn() ? _utils.logout : _utils.login
-  }, window.walletConnection.isSignedIn() ? window.accountId : "Login"), " ")))), /*#__PURE__*/_react.default.createElement(_reactBootstrap.Container, {
+  }, window.walletConnection.isSignedIn() ? window.accountId : "Login"), " ")))), /*#__PURE__*/_react.default.createElement(_reactBootstrap.Container, null, /*#__PURE__*/_react.default.createElement(_reactBootstrap.Row, null, /*#__PURE__*/_react.default.createElement(_reactBootstrap.Col, null, /*#__PURE__*/_react.default.createElement("div", {
+    style: {
+      marginTop: 50
+    }
+  }, /*#__PURE__*/_react.default.createElement("h1", {
+    stle: {
+      fontWeight: 'bold',
+      width: 10
+    }
+  }, "Mint NEAR Spring Hackathon NFTS on the Testnet"))), /*#__PURE__*/_react.default.createElement(_reactBootstrap.Col, null, /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement("img", {
+    alt: "",
+    src: _main.default,
+    float: "right"
+  }))))), /*#__PURE__*/_react.default.createElement(_reactBootstrap.Container, {
     style: {
       marginTop: "3vh"
     }

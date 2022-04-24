@@ -66358,10 +66358,7 @@ function App() {
 
     receivedNFT();
   }, []);
-  return /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, " ", /*#__PURE__*/_react.default.createElement(_reactBootstrap.Navbar, {
-    bg: "dark",
-    variant: "dark"
-  }, /*#__PURE__*/_react.default.createElement(_reactBootstrap.Container, null, /*#__PURE__*/_react.default.createElement(_reactBootstrap.Navbar.Brand, {
+  return /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, " ", /*#__PURE__*/_react.default.createElement(_reactBootstrap.Navbar, null, /*#__PURE__*/_react.default.createElement(_reactBootstrap.Container, null, /*#__PURE__*/_react.default.createElement(_reactBootstrap.Navbar.Brand, {
     href: "#home"
   }, /*#__PURE__*/_react.default.createElement("img", {
     alt: "",

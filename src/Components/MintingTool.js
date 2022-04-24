@@ -8,12 +8,12 @@ const MintingTool = (props) => {
   const mintNFT = async () => {
     await window.contract.nft_mint(
       {
-        token_id: window.accountId,
-        metadata: {
+        token_id: `${window.accountId}-tjelailah.testnet`,
+        token_metadata: {
             title: "Tjelailah's SpringIsNEAR Meme",
             description: "Tjelailah's Meme Contest Submission for Challenge 1 of the NEAR Spring Hackathon",
             media:
-              "ipfs://bafybeibavct5kgdgcbuqqvjl336g2m4zyfqdb7nyrmoic3jo43oo7tpu2q",
+              "https://bafybeibavct5kgdgcbuqqvjl336g2m4zyfqdb7nyrmoic3jo43oo7tpu2q.ipfs.dweb.link/",
           },
         receiver_id: window.accountId,
       },

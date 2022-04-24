@@ -6,12 +6,12 @@ import { login, logout } from "./utils";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 // React Bootstraps imports
-import { Nav, Navbar, Container, Row, Card, Alert, Col } from "react-bootstrap";
+import { Nav, Navbar, Container, Row, Card, Alert, Col, Button } from "react-bootstrap";
 
 // Custom Components
 import MintingTool from "./Components/MintingTool";
 import InfoBubble from "./Components/InfoBubble";
-import CreateNFT from "./Components/CreateNFT";
+// import CreateNFT from "./Components/CreateNFT";
 
 // assets
 import Logo from "./assets/main.png";
@@ -90,7 +90,35 @@ export default function App() {
             <MintingTool userNFTStatus={userHasNFT} />
           </Col>
           <Col>
-            <CreateNFT />
+          <Card style={{
+            border: 'none',
+            borderRadius: 5,
+            boxShadow: '0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)',
+            paddingTop: 10,
+            height: 300
+          }}>
+            <Container>
+              {/* <Row style={{ marginBottom: "2vh" }}> */}
+                {/* <Col> */}
+                  <p>
+                    Step 2: After you have logged in, hit this button to mint your "Go
+                    Team" Token and go your{" "}
+                    <a href='https://wallet.testnet.near.org/'> wallet</a> and see your
+                    NFT
+                  </p>
+                  <Button
+                  disabled={window.accountId === ""}
+                  // onClick={console.}
+                  style={{ 
+                    position: "absolute",
+                    bottom: 10,
+                    left: 20,
+                    }}
+                >
+                Create NFT
+                </Button>
+            </Container>
+          </Card>
           </Col>
         </Row>
       </Container>

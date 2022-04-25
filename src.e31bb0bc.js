@@ -66358,7 +66358,11 @@ function App() {
 
     receivedNFT();
   }, []);
-  return /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, " ", /*#__PURE__*/_react.default.createElement(_reactBootstrap.Navbar, null, /*#__PURE__*/_react.default.createElement(_reactBootstrap.Container, null, /*#__PURE__*/_react.default.createElement(_reactBootstrap.Navbar.Brand, {
+  return /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, " ", /*#__PURE__*/_react.default.createElement("div", {
+    style: {
+      backgroundColor: '#ecf1f4'
+    }
+  }, /*#__PURE__*/_react.default.createElement(_reactBootstrap.Navbar, null, /*#__PURE__*/_react.default.createElement(_reactBootstrap.Container, null, /*#__PURE__*/_react.default.createElement(_reactBootstrap.Navbar.Brand, {
     href: "#home"
   }, /*#__PURE__*/_react.default.createElement("img", {
     alt: "",
@@ -66376,18 +66380,38 @@ function App() {
     onClick: window.walletConnection.isSignedIn() ? _utils.logout : _utils.login
   }, window.walletConnection.isSignedIn() ? window.accountId : "Login"), " ")))), /*#__PURE__*/_react.default.createElement(_reactBootstrap.Container, null, /*#__PURE__*/_react.default.createElement(_reactBootstrap.Row, null, /*#__PURE__*/_react.default.createElement(_reactBootstrap.Col, null, /*#__PURE__*/_react.default.createElement("div", {
     style: {
-      marginTop: 50
+      marginTop: 50,
+      width: 500
     }
-  }, /*#__PURE__*/_react.default.createElement("h1", {
+  }, /*#__PURE__*/_react.default.createElement(_reactBootstrap.Container, null, /*#__PURE__*/_react.default.createElement(_reactBootstrap.Alert, {
+    style: {
+      padding: 0,
+      backgroundColor: '#dff9ea',
+      borderColor: '#ECF1F4',
+      borderRadius: 15,
+      width: 300,
+      color: 'black'
+    }
+  }, /*#__PURE__*/_react.default.createElement(_reactBootstrap.Button, {
+    style: {
+      borderRadius: 15,
+      backgroundColor: '#55BC7E',
+      borderColor: '#55BC7E'
+    }
+  }, "Testnet"), " ", /*#__PURE__*/_react.default.createElement("span", {
+    style: {
+      paddingLeft: 10
+    }
+  }, "Stay connected to mint"))), /*#__PURE__*/_react.default.createElement("h1", {
     stle: {
       fontWeight: 'bold',
-      width: 10
+      margin: 30
     }
-  }, "Mint NEAR Spring Hackathon NFTS on the Testnet"))), /*#__PURE__*/_react.default.createElement(_reactBootstrap.Col, null, /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement("img", {
+  }, "Mint NEAR Spring Hackathon NFTS"))), /*#__PURE__*/_react.default.createElement(_reactBootstrap.Col, null, /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement("img", {
     alt: "",
     src: _main.default,
     float: "right"
-  }))))), /*#__PURE__*/_react.default.createElement(_reactBootstrap.Container, {
+  })))))), /*#__PURE__*/_react.default.createElement(_reactBootstrap.Container, {
     style: {
       marginTop: "3vh"
     }

@@ -85195,7 +85195,7 @@ function App() {
       paddingTop: 10,
       height: 250
     }
-  }, /*#__PURE__*/_react.default.createElement(_reactBootstrap.Container, null, /*#__PURE__*/_react.default.createElement("p", null, "You can also create your own custom NFT. Upload an image, then add a Title and Description below:"), /*#__PURE__*/_react.default.createElement("div", {
+  }, /*#__PURE__*/_react.default.createElement(_reactBootstrap.Container, null, /*#__PURE__*/_react.default.createElement("p", null, "You can also mint your own custom NFT. Upload an image, then add a Title and Description below:"), /*#__PURE__*/_react.default.createElement("div", {
     className: "mint"
   }, /*#__PURE__*/_react.default.createElement("input", {
     type: "file",
@@ -85235,7 +85235,17 @@ function App() {
     }
   }, "Your NFT has been minted! head over to", " ", /*#__PURE__*/_react.default.createElement("a", {
     href: "https://wallet.testnet.near.org/"
-  }, "wallet.testnet.near.org"), " ", "to see your new NFT", /*#__PURE__*/_react.default.createElement("br", null))));
+  }, "wallet.testnet.near.org"), " ", "to see your new NFT", /*#__PURE__*/_react.default.createElement("br", null))), /*#__PURE__*/_react.default.createElement("div", {
+    style: {
+      textAlign: 'center'
+    }
+  }, /*#__PURE__*/_react.default.createElement("p", null, "Created with \u2764\uFE0F by ", /*#__PURE__*/_react.default.createElement("a", {
+    href: "twitter.com/tjelailah",
+    target: "_blank"
+  }, "@tjelailah")), /*#__PURE__*/_react.default.createElement("p", null, /*#__PURE__*/_react.default.createElement("a", {
+    href: "https://www.github.com/jelilat/nearnft",
+    target: "_blank"
+  }, "Source code"))));
 }
 },{"regenerator-runtime/runtime":"../node_modules/regenerator-runtime/runtime.js","react":"../node_modules/react/index.js","./utils":"utils.js","ipfs-http-client":"../node_modules/ipfs-http-client/cjs/src/index.js","bootstrap/dist/css/bootstrap.min.css":"../node_modules/bootstrap/dist/css/bootstrap.min.css","react-bootstrap":"../node_modules/react-bootstrap/esm/index.js","./Components/MintingTool":"Components/MintingTool.js","./Components/InfoBubble":"Components/InfoBubble.js","./assets/main.png":"assets/main.png","./config":"config.js","bn.js":"../node_modules/bn.js/lib/bn.js"}],"index.js":[function(require,module,exports) {
 "use strict";
